@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/Build/UnityLoader.js", "destination": "/Build/UnityLoader.js" }
+  ]
+}
+
