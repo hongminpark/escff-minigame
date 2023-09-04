@@ -8,6 +8,15 @@
           "value": "gzip"
         }
       ]
+    },
+    {
+      "source": "/Build/(.*)\\.wasm",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/wasm"
+        }
+      ]
     }
   ],
   "rewrites": [
